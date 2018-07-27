@@ -1,0 +1,14 @@
+# yum update
+# yum install -y yum-utils
+# yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+# yum makecache fast
+# yum install docker-ce docker-compose
+
+To start docker service daemon
+# systemctl start docker
+
+check status service
+# systemctl status docker
+
+start Docker daemon on boot
+# systemctl enable docker
